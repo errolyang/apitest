@@ -1,0 +1,31 @@
+    case_name: collect_delete_tool_01
+    host: https://www.wanandroid.com
+    url: /lg/collect/deletetool/json
+    method: POST
+    detail: 正常删除收藏网站
+    headers:
+      # 这里cookie的值，写的是存入缓存的名称
+      cookie: $cache{login_cookie}
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      id: $cache{collect_delete_tool_01_id}
+    dependence_case: True
+    # 依赖的数据
+    dependence_case_data:
+      - case_name: collect_addtool_01
+        case_path: collect_addtool.yml
+        dependent_data:
+          - dependent_type: response
+            jsonpath: $.data.id
+            set_cache: collect_delete_tool_01_id
+
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: 0
+        AssertType:
+    current_request_set_cache:
+    sql:

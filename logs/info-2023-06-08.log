@@ -1,0 +1,176 @@
+INFO    2023-06-08 12:56:51,977/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'cookies': '$cache{login_cookie}'}
+请求内容：None
+响应内容：{"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长：128 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 12:59:17,295/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'cookies': '$cache{login_cookie}'}
+请求内容：None
+响应内容：{"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长：138 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:51,278/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：正常登录
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '13816653013', 'password': '123456'}
+响应内容：{"data":{"admin":false,"chapterTops":[],"coinCount":145,"collectIds":[],"email":"","icon":"","id":148738,"nickname":"13816653013","password":"","publicName":"13816653013","token":"","type":0,"username":"13816653013"},"errorCode":0,"errorMsg":""}
+接口响应时长：815 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:51,532/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：输入错误的密码
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '13816653013', 'password': '12345'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：240 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:51,779/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：登录密码为空
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '13816653013', 'password': None}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：239 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:52,050/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：输入非1开头的手机号码
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '28800000001', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：264 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:52,305/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：输入手机号码小于11位
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '1381665789', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：247 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:52,570/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：输入手机号码大于于11位
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '18800000000', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：257 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:53,323/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：手机号码为空
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': None, 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：746 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:37:53,938/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：手机号码首位包含空格
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': ' 13816653013 ', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：608 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:38:10,673/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'cookies': '$cache{login_cookie}'}
+请求内容：None
+响应内容：{"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长：142 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:41:59,275/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookies': 'JSESSIONID=DE861BC59DBC2968BE27F2DF5779AE0A;loginUserName=13816653013;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653013;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长：124 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 13:56:57,541/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookies': 'JSESSIONID=9573334D1F3DD5A3BC700D520F3F4F62;loginUserName=13816653013;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653013;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长：137 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 15:09:39,875/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'cookies': 'JSESSIONID=D386EB88B4C0560343CFDE5FB68D7044;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长：123 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 15:11:24,251/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'cookie': 'JSESSIONID=D1D367BED74BA2EEB27D88CD402F8658;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"data":[],"errorCode":0,"errorMsg":""}
+接口响应时长：151 ms
+Http状态码：200
+===================================================
+INFO    2023-06-08 15:20:05,686/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-08.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'cookie': 'JSESSIONID=B8360A3B7812C9456E1DF8494B972D73;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"data":[],"errorCode":0,"errorMsg":""}
+接口响应时长：165 ms
+Http状态码：200
+===================================================

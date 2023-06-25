@@ -1,0 +1,55 @@
+ERROR   2023-06-17 20:11:22,764/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-06-17.log:37 
+===================================================
+用例标题：正常删除收藏网站
+请求路径：https://www.wanandroid.com/lg/collect/deletetool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=012601383A7BC2A04211FD71F0C9DD22;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '42', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'id': '73283'}
+响应内容：<html><head><title>Apache Tomcat/7.0.77 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.77</h3></body></html>
+接口响应时长：144 ms
+Http状态码：400
+===================================================
+ERROR   2023-06-17 21:41:08,411/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-06-17.log:37 
+===================================================
+用例标题：正常删除收藏网站
+请求路径：https://www.wanandroid.com/lg/collect/deletetool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=E12EA258993E747ED1939E00033DF85A;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '42', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'id': '73290'}
+响应内容：<html><head><title>Apache Tomcat/7.0.77 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.77</h3></body></html>
+接口响应时长：138 ms
+Http状态码：400
+===================================================
+ERROR   2023-06-17 21:52:19,523/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-06-17.log:37 
+===================================================
+用例标题：正常删除收藏网站
+请求路径：https://www.wanandroid.com/lg/collect/deletetool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=42924145D3BAAFB89BE2DEE5C5961EAB;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '42', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'id': '73291'}
+响应内容：<html><head><title>Apache Tomcat/7.0.77 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.77</h3></body></html>
+接口响应时长：152 ms
+Http状态码：400
+===================================================
+ERROR   2023-06-17 21:55:21,544/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-06-17.log:37 
+===================================================
+用例标题：正常删除收藏网站
+请求路径：https://www.wanandroid.com/lg/collect/deletetool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=82CC0AECB09644583AAD213B2644C264;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '42', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'id': '73293'}
+响应内容：<html><head><title>Apache Tomcat/7.0.77 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.77</h3></body></html>
+接口响应时长：134 ms
+Http状态码：400
+===================================================
+ERROR   2023-06-17 22:02:02,278/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-06-17.log:37 
+===================================================
+用例标题：正常删除收藏网站
+请求路径：https://www.wanandroid.com/lg/collect/deletetool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=7A8E68CFF1D134CCC7B6E64E22E5FD10;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '42', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'id': '73294'}
+响应内容：<html><head><title>Apache Tomcat/7.0.77 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.77</h3></body></html>
+接口响应时长：145 ms
+Http状态码：400
+===================================================

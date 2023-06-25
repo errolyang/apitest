@@ -1,0 +1,246 @@
+#登陆用例
+  case_name: login_01
+  host: https://www.wanandroid.com
+  url: /user/login
+  method: POST
+  detail: 正常登录
+  headers:
+  requestType: data
+  data:
+    username: '13816653013'
+    password: '123456'
+  dependence_case: False
+  dependence_case_data:
+  assert:
+    errorCode:
+      jsonpath: $.errorCode
+      type: code
+      value: 0
+      AssertType:
+    username:
+      jsonpath: $.data.username
+      type: code
+      value: '13816653013'
+      AssertType:
+  current_request_set_cache:
+  sql:
+---
+    case_name: login_02
+    host: https://www.wanandroid.com
+    url: /user/login
+    method: POST
+    detail: 输入错误的密码
+    headers:
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      username: '13816653013'
+      password: '12345'
+      # 是否有依赖业务，为空或者false则表示没有
+    dependence_case: False
+        # 依赖的数据
+    dependence_case_data:
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: -1
+        AssertType:
+      # 断言接口返回的username
+      errorMsg:
+        jsonpath: $.errorMsg
+        type: body
+        value: "账号密码不匹配！"
+        AssertType:
+    current_request_set_cache:
+    sql:
+---
+    case_name: login_03
+    host: https://www.wanandroid.com
+    url: /user/login
+    method: POST
+    detail: 登录密码为空
+    headers:
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      username: '13816653013'
+      password:
+      # 是否有依赖业务，为空或者false则表示没有
+    dependence_case: False
+        # 依赖的数据
+    dependence_case_data:
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: -1
+        AssertType:
+      # 断言接口返回的username
+      errorMsg:
+        jsonpath: $.errorMsg
+        type: body
+        value: "账号密码不匹配！"
+        AssertType:
+    current_request_set_cache:
+    sql:
+---
+    case_name: login_04
+    host: https://www.wanandroid.com
+    url: /user/login
+    method: POST
+    detail: 输入非1开头的手机号码
+    headers:
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      username: '28800000001'
+      password: '123456'
+      # 是否有依赖业务，为空或者false则表示没有
+    dependence_case: False
+        # 依赖的数据
+    dependence_case_data:
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: -1
+        AssertType:
+      # 断言接口返回的username
+      errorMsg:
+        jsonpath: $.errorMsg
+        type: body
+        value: "账号密码不匹配！"
+        AssertType:
+    current_request_set_cache:
+    sql:
+---
+    case_name: login_05
+    host: https://www.wanandroid.com
+    url: /user/login
+    method: POST
+    detail: 输入手机号码小于11位
+    headers:
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      username: '1381665789'
+      password: '123456'
+      # 是否有依赖业务，为空或者false则表示没有
+    dependence_case: False
+        # 依赖的数据
+    dependence_case_data:
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: -1
+        AssertType:
+      # 断言接口返回的username
+      errorMsg:
+        jsonpath: $.errorMsg
+        type: body
+        value: "账号密码不匹配！"
+        AssertType:
+    current_request_set_cache:
+    sql:
+---
+    case_name: login_06
+    host: https://www.wanandroid.com
+    url: /user/login
+    method: POST
+    detail: 输入手机号码大于于11位
+    headers:
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      username: '18800000000'
+      password: '123456'
+      # 是否有依赖业务，为空或者false则表示没有
+    dependence_case: False
+        # 依赖的数据
+    dependence_case_data:
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: -1
+        AssertType:
+      # 断言接口返回的username
+      errorMsg:
+        jsonpath: $.errorMsg
+        type: body
+        value: "账号密码不匹配！"
+        AssertType:
+    current_request_set_cache:
+    sql:
+---
+    case_name: login_07
+    host: https://www.wanandroid.com
+    url: /user/login
+    method: POST
+    detail: 手机号码为空
+    headers:
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      username:
+      password: '123456'
+      # 是否有依赖业务，为空或者false则表示没有
+    dependence_case: False
+        # 依赖的数据
+    dependence_case_data:
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: -1
+        AssertType:
+      # 断言接口返回的username
+      errorMsg:
+        jsonpath: $.errorMsg
+        type: body
+        value: "账号密码不匹配！"
+        AssertType:
+    current_request_set_cache:
+    sql:
+---
+    case_name: login_08
+    host: https://www.wanandroid.com
+    url: /user/login
+    method: POST
+    detail: 手机号码首位包含空格
+    headers:
+    # 请求的数据，是 params 还是 json、或者file、data
+    requestType: data
+    data:
+      username: ' 13816653013 '
+      password: '123456'
+      # 是否有依赖业务，为空或者false则表示没有
+    dependence_case: False
+        # 依赖的数据
+    dependence_case_data:
+    assert:
+      # 断言接口状态码
+      errorCode:
+        jsonpath: $.errorCode
+        type: code
+        value: -1
+        AssertType:
+      # 断言接口返回的username
+      errorMsg:
+        jsonpath: $.errorMsg
+        type: body
+        value: "账号密码不匹配！"
+        AssertType:
+    current_request_set_cache:
+    sql:
+
+
+

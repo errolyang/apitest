@@ -1,0 +1,12 @@
+ERROR   2023-05-27 11:41:04,906-APIlog:77 测试test
+ERROR   2023-05-27 11:45:40,412-APIlog:77 测试test
+ERROR   2023-05-27 12:26:24,205-APIlog:77 测试test
+ERROR   2023-05-27 12:39:16,597/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-05-27.log:log_control.py:79 测试test
+ERROR   2023-05-27 12:39:45,321/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-05-27.log:log_control.py:79 测试test
+ERROR   2023-05-27 12:40:00,933/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-05-27.log:log_control.py:79 测试test
+ERROR   2023-05-27 12:41:00,627/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-05-27.log:79 测试test
+ERROR   2023-05-27 12:42:16,102/Users/yangmc/PycharmProjects/apidemo1/logs/error-2023-05-27.log:20 
+===================================
+测试用例执行时间较长，请关注。
+用例执行时长：19296 ms
+====================================

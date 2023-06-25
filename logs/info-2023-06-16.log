@@ -1,0 +1,286 @@
+INFO    2023-06-16 11:35:32,343/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=CDE9E1601F047885548A1D14268857A1;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73168,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：207 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 11:37:16,181/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=4B3C8E66DACEDB89176ABAD255C57FDA;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73169,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：207 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 11:44:22,642/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'cookie': 'JSESSIONID=9B54F153897BF0675851ED09175BC49D;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"data":[{"desc":"","icon":"","id":73168,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73169,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1}],"errorCode":0,"errorMsg":""}
+接口响应时长：178 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 12:03:29,604/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=773C70E726C1B0AF0FAF4B190397FEA5;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73170,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：176 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 12:04:58,565/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=A68887AAF3F3D1F2100E849833EAE4EF;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73171,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：154 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 12:06:55,321/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=B485971D4DF34B613D55FBB5D6C82C55;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73172,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：174 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 12:23:10,572/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=25F876815817424573E0FB3320DC6DB5;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73173,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：194 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 12:25:03,340/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=BDCEB79E5ADF4DF4C9BA8C28D8A66405;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73174,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：168 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 12:44:00,898/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'cookie': 'JSESSIONID=73A13CD9550FA108D3B2585501AF6D39;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"data":[{"desc":"","icon":"","id":73168,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73169,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73170,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73171,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73172,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73173,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73174,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1}],"errorCode":0,"errorMsg":""}
+接口响应时长：199 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 12:54:17,910/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=E318D515E1FD9C4BD12498B0FEEA752E;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73177,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：168 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 13:13:25,780/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'cookie': 'JSESSIONID=AB979B627E6592660C77212838A3C3E0;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"data":[{"desc":"","icon":"","id":73168,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73169,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73170,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73171,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73172,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73173,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73174,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73177,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1}],"errorCode":0,"errorMsg":""}
+接口响应时长：175 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 13:22:04,198/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=57D598D5AC9A264EB6ED4D88C1758A2C;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73178,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：189 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 14:12:37,666/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=F9A09F040AB57D0753AB7B35E41F359D;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73179,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：161 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 14:41:49,926/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=F07CDE45EA78E75DEB9A493B37626FD2;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73180,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：165 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:13:39,182/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=1BCACB273183170A2E6F474558A22373;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73231,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：166 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:20:29,508/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=C2B6255B37297EE94029F32FC1CAC83A;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73232,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：175 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:25:23,137/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=99E41739B6B8CE85B5EAEA768BF9B14F;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73233,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：195 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:37:09,717/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=508459148A348541B1F67184DAFBE40E;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73234,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：173 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:44:55,475/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=7988EF21A6C32AA04D18713A34151BBE;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73235,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：173 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:45:43,787/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=36D4491BA16849F9BEB754C3019F7963;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73236,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：182 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:46:51,472/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=21788E54BFE14827FD621CA3247746EC;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73237,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：177 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:48:08,265/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=860D32926B736307141B7DD33BE7D6F9;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73238,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：173 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 19:50:39,098/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=E7C20A396FE75593DF1D7D4213DBBABF;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73239,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：172 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 21:28:09,224/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=1111BDEAB39C5B8AF85D963705893972;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73256,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：154 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 21:30:21,108/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=5D0E320CB9319B4CBD7A9EDC2EDC2EB5;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73257,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：159 ms
+Http状态码：200
+===================================================
+INFO    2023-06-16 21:30:55,525/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-16.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=E457DC265B4506F7BA3101089EA33340;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '54', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：{'name': '必应', 'link': 'https://cn.bing.com'}
+响应内容：{"data":{"desc":"","icon":"","id":73258,"link":"https://cn.bing.com","name":"必应","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：163 ms
+Http状态码：200
+===================================================

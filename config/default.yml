@@ -1,0 +1,10 @@
+project_name: apitest
+
+base:
+  url: https://www.wanandroid.com
+
+email:
+  send_user: 2209258481@qq.com
+  email_host: smtp.qq.com
+  stamp_key: rguixjpdqljsecfh
+  send_list: 821046174@qq.com,287919306@qq.com,yangmc211@163.com

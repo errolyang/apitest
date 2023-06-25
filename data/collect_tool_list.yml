@@ -1,0 +1,21 @@
+#收藏网址列表
+  case_name: collect_tool_list_01
+  host: https://www.wanandroid.com
+  url: /lg/collect/usertools/json
+  method: GET
+  detail: 查看收藏网址列表
+  headers:
+    Content-Type: application/json;charset=UTF-8
+    cookie: $cache{login_cookie}
+  requestType: none
+  data:
+  dependence_case:
+  dependence_case_data:
+  assert:
+    errorCode:
+      jsonpath: $.errorCode
+      type: code
+      value: 0
+      Assert_type:
+  current_request_set_cache:
+  sql:

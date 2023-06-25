@@ -1,0 +1,95 @@
+ERROR   2023-05-27 11:41:04,906-APIlog:77 测试test
+ERROR   2023-05-27 11:45:40,412-APIlog:77 测试test
+INFO    2023-05-27 11:47:35,758-APIlog:78 ceshi info
+ERROR   2023-05-27 12:26:24,205-APIlog:77 测试test
+INFO    2023-05-27 12:38:53,955/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:log_control.py:80 ceshi info
+INFO    2023-05-27 12:39:16,597/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:log_control.py:80 ceshi info
+INFO    2023-05-27 12:39:45,321/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:log_control.py:80 ceshi info
+INFO    2023-05-27 12:41:56,297/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：正常登录
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '13816653013', 'password': '123456'}
+响应内容：{"data":{"admin":false,"chapterTops":[],"coinCount":108,"collectIds":[],"email":"","icon":"","id":148738,"nickname":"13816653013","password":"","publicName":"13816653013","token":"","type":0,"username":"13816653013"},"errorCode":0,"errorMsg":""}
+接口响应时长：729 ms
+Http状态码：200
+===================================================
+INFO    2023-05-27 12:41:56,548/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：输入错误的密码
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '13816653013', 'password': '12345'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：243 ms
+Http状态码：200
+===================================================
+INFO    2023-05-27 12:41:56,798/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：登录密码为空
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '13816653013', 'password': None}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：244 ms
+Http状态码：200
+===================================================
+INFO    2023-05-27 12:42:16,105/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：输入非1开头的手机号码
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '28800000001', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：19296 ms
+Http状态码：200
+===================================================
+INFO    2023-05-27 12:42:16,345/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：输入手机号码小于11位
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '1381665789', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：234 ms
+Http状态码：200
+===================================================
+INFO    2023-05-27 12:42:16,668/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：输入手机号码大于于11位
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': '18800000000', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：314 ms
+Http状态码：200
+===================================================
+INFO    2023-05-27 12:42:16,931/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：手机号码为空
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': None, 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：254 ms
+Http状态码：200
+===================================================
+INFO    2023-05-27 12:42:17,163/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-05-27.log:34 
+===================================================
+用例标题：手机号码首位包含空格
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：None
+请求内容：{'username': ' 13816653013 ', 'password': '123456'}
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：223 ms
+Http状态码：200
+===================================================
