@@ -31,5 +31,4 @@ class TestMetrics:
     total: int
     pass_rate: float
     time: Text
-    oneday: Text
 

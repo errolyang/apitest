@@ -1,3 +1,7 @@
+import sys
+sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11")
+sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages")
+
 import os
 import pytest
 import traceback

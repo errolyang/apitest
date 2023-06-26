@@ -58,15 +58,6 @@ class AllureFileClean:
                 else:
                     run_case_data["pass_rate"] = 0.0
                 run_case_data["time"] = _time if _case_count["total"] == 0 else round(_time["duration"]/1000, 2)
-                run_case_data["oneday"] = """
-                                          8:00 起床吃饭
-                                          9:00 睡回笼觉
-                                          11:00 学习
-                                          2:00 做饭吃饭
-                                          3:00 躺着看电影
-                                          4:00 学习
-                                          一直一直学习学习
-                                          """
                 return TestMetrics(**run_case_data)
         except FileNotFoundError as exc:
             raise FileNotFoundError(

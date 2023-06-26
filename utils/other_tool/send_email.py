@@ -51,14 +51,6 @@ class SendEmail:
            跳过用例个数：{self.metrics.skipped}
            成功率：{self.metrics.pass_rate}
            
-           
-        dear xuan：
-            ppt你就不要想了，除非你先给我写
-            以下是我的日常，你不要太羡慕了哦
-            {self.metrics.oneday}
-            怎么样，我还是很听话的吧
-            那么我忽悠过你的过去，咱们就一笔勾销了吧！
-           
         {self.casedetail}
         """
         self.send_email(user_list, sub, content)

@@ -1,5 +1,8 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Jun 24 18:56:13 CST 2023","Sat Jun 24 18:56:13 CST 2023","0","test_case","test_test","Testcase","","","test_case","delete_path = conf_control.get_data_path() + os.sep + ""collect_delete_tool.yml""
+"passed","Mon Jun 26 12:21:12 CST 2023","Mon Jun 26 12:21:12 CST 2023","281","test_case","test_login","TestLogin","","","test_login[手机号码首位包含空格]",""
+"passed","Mon Jun 26 12:21:08 CST 2023","Mon Jun 26 12:21:08 CST 2023","368","test_case","test_collect_delete_tool","TestCollectToolList","","","test_collect_tool_list[正常删除收藏网站]",""
+"passed","Mon Jun 26 12:21:09 CST 2023","Mon Jun 26 12:21:10 CST 2023","1343","test_case","test_login","TestLogin","","","test_login[正常登录]",""
+"passed","Mon Jun 26 12:21:12 CST 2023","Mon Jun 26 12:21:12 CST 2023","0","test_case","test_test","Testcase","","","test_case","delete_path = conf_control.get_data_path() + os.sep + ""collect_delete_tool.yml""
         delete_case = yaml_control.YamlReader(delete_path)
         delete_data = delete_case.yamldata()
         print(delete_data)
@@ -15,14 +18,11 @@
         print(_cache_config)
         value = RegularControl(delete_data).cache_regular()
         print(value)"
-"passed","Sat Jun 24 18:56:13 CST 2023","Sat Jun 24 18:56:13 CST 2023","234","test_case","test_login","TestLogin","","","test_login[输入手机号码大于于11位]",""
-"passed","Sat Jun 24 18:56:12 CST 2023","Sat Jun 24 18:56:13 CST 2023","253","test_case","test_login","TestLogin","","","test_login[输入手机号码小于11位]",""
-"passed","Sat Jun 24 18:56:12 CST 2023","Sat Jun 24 18:56:12 CST 2023","272","test_case","test_login","TestLogin","","","test_login[输入错误的密码]",""
-"passed","Sat Jun 24 18:56:10 CST 2023","Sat Jun 24 18:56:10 CST 2023","380","test_case","test_collect_delete_tool","TestCollectToolList","","","test_collect_tool_list[正常删除收藏网站]",""
-"passed","Sat Jun 24 18:56:13 CST 2023","Sat Jun 24 18:56:13 CST 2023","268","test_case","test_login","TestLogin","","","test_login[手机号码为空]",""
-"passed","Sat Jun 24 18:56:12 CST 2023","Sat Jun 24 18:56:12 CST 2023","266","test_case","test_login","TestLogin","","","test_login[输入非1开头的手机号码]",""
-"passed","Sat Jun 24 18:56:12 CST 2023","Sat Jun 24 18:56:12 CST 2023","279","test_case","test_login","TestLogin","","","test_login[登录密码为空]",""
-"passed","Sat Jun 24 18:56:09 CST 2023","Sat Jun 24 18:56:10 CST 2023","205","test_case","test_collect_add_tool","TestCollectToolList","","","test_collect_tool_list[新增收藏网址接口]",""
-"passed","Sat Jun 24 18:56:10 CST 2023","Sat Jun 24 18:56:12 CST 2023","1359","test_case","test_login","TestLogin","","","test_login[正常登录]",""
-"passed","Sat Jun 24 18:56:13 CST 2023","Sat Jun 24 18:56:13 CST 2023","267","test_case","test_login","TestLogin","","","test_login[手机号码首位包含空格]",""
-"passed","Sat Jun 24 18:56:10 CST 2023","Sat Jun 24 18:56:10 CST 2023","193","test_case","test_collect_tool_list","TestCollectToolList","","","test_collect_tool_list[查看收藏网址列表]",""
+"passed","Mon Jun 26 12:21:11 CST 2023","Mon Jun 26 12:21:12 CST 2023","277","test_case","test_login","TestLogin","","","test_login[输入手机号码大于于11位]",""
+"passed","Mon Jun 26 12:21:11 CST 2023","Mon Jun 26 12:21:11 CST 2023","297","test_case","test_login","TestLogin","","","test_login[输入非1开头的手机号码]",""
+"passed","Mon Jun 26 12:21:11 CST 2023","Mon Jun 26 12:21:11 CST 2023","298","test_case","test_login","TestLogin","","","test_login[输入手机号码小于11位]",""
+"passed","Mon Jun 26 12:21:12 CST 2023","Mon Jun 26 12:21:12 CST 2023","254","test_case","test_login","TestLogin","","","test_login[手机号码为空]",""
+"passed","Mon Jun 26 12:21:10 CST 2023","Mon Jun 26 12:21:11 CST 2023","515","test_case","test_login","TestLogin","","","test_login[输入错误的密码]",""
+"passed","Mon Jun 26 12:21:08 CST 2023","Mon Jun 26 12:21:09 CST 2023","219","test_case","test_collect_tool_list","TestCollectToolList","","","test_collect_tool_list[查看收藏网址列表]",""
+"passed","Mon Jun 26 12:21:11 CST 2023","Mon Jun 26 12:21:11 CST 2023","304","test_case","test_login","TestLogin","","","test_login[登录密码为空]",""
+"passed","Mon Jun 26 12:21:08 CST 2023","Mon Jun 26 12:21:08 CST 2023","208","test_case","test_collect_add_tool","TestCollectToolList","","","test_collect_tool_list[新增收藏网址接口]",""

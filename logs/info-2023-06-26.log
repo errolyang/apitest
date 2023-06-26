@@ -1,0 +1,132 @@
+INFO    2023-06-26 12:21:08,555/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=5CF382E45AA2846F636662215149BF65;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '42', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：name=biying&link=https%3A%2F%2Fcn.bing.com
+响应内容：{"data":{"desc":"","icon":"","id":74173,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：190 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:08,733/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：新增收藏网址接口
+请求路径：https://www.wanandroid.com/lg/collect/addtool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=5CF382E45AA2846F636662215149BF65;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '42', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：name=biying&link=https%3A%2F%2Fcn.bing.com
+响应内容：{"data":{"desc":"","icon":"","id":74174,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长：157 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:08,927/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：正常删除收藏网站
+请求路径：https://www.wanandroid.com/lg/collect/deletetool/json
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=5CF382E45AA2846F636662215149BF65;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '8', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：id=74174
+响应内容：{"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长：184 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:09,149/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：查看收藏网址列表
+请求路径：https://www.wanandroid.com/lg/collect/usertools/json
+请求方法：GET
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json;charset=UTF-8', 'cookie': 'JSESSIONID=5CF382E45AA2846F636662215149BF65;loginUserName=13816653014;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=13816653014;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容：None
+响应内容：{"data":[{"desc":"","icon":"","id":73588,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73596,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73600,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73602,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73604,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73611,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73635,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73637,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73639,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":73908,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1},{"desc":"","icon":"","id":74173,"link":"https://cn.bing.com","name":"biying","order":0,"userId":149908,"visible":1}],"errorCode":0,"errorMsg":""}
+接口响应时长：210 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:10,494/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：正常登录
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '36', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：username=13816653013&password=123456
+响应内容：{"data":{"admin":false,"chapterTops":[],"coinCount":255,"collectIds":[],"email":"","icon":"","id":148738,"nickname":"13816653013","password":"","publicName":"13816653013","token":"","type":0,"username":"13816653013"},"errorCode":0,"errorMsg":""}
+接口响应时长：1336 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:11,011/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：输入错误的密码
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '35', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：username=13816653013&password=12345
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：505 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:11,318/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：登录密码为空
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '20', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：username=13816653013
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：297 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:11,617/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：输入非1开头的手机号码
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '36', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：username=28800000001&password=123456
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：291 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:11,919/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：输入手机号码小于11位
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '35', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：username=1381665789&password=123456
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：293 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:12,198/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：输入手机号码大于于11位
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '36', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：username=18800000000&password=123456
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：272 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:12,454/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：手机号码为空
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：password=123456
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：249 ms
+Http状态码：200
+===================================================
+INFO    2023-06-26 12:21:12,737/Users/yangmc/PycharmProjects/apidemo1/logs/info-2023-06-26.log:34 
+===================================================
+用例标题：手机号码首位包含空格
+请求路径：https://www.wanandroid.com/user/login
+请求方法：POST
+请求头：{'User-Agent': 'python-requests/2.30.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '38', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容：username=+13816653013+&password=123456
+响应内容：{"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长：275 ms
+Http状态码：200
+===================================================
