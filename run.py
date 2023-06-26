@@ -1,6 +1,9 @@
 import sys
+# print(sys.path)
 sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11")
 sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages")
+sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python311.zip")
+sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload")
 
 import os
 import pytest
