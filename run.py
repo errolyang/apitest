@@ -4,6 +4,7 @@ sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.
 sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages")
 sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python311.zip")
 sys.path.append("/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload")
+sys.path.append("/Users/yangmc/.jenkins/workspace/api_test")
 
 import os
 import pytest
