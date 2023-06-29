@@ -36,11 +36,13 @@ class Testcase:
         a = os.listdir(case_path)
         print(a)
         b = os.walk(case_path)
-        for path,dirs,files in b:
+        for path, dirs, files in b:
             print(path)
             print(dirs)
             print(files)
             print("\n")
+
+        print("测试git回退版本")
 
 
 
