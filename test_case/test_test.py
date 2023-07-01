@@ -45,6 +45,8 @@ class Testcase:
         print("测试git回退版本")
         print("test git back")
 
+        print("测试分支")
+
 
 
 if __name__ == "__main__":
