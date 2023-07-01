@@ -49,6 +49,8 @@ class Testcase:
 
         print("测试分支冲突master")
 
+        print("测试分支删除方法")
+
 
 
 if __name__ == "__main__":
