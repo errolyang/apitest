@@ -46,7 +46,11 @@ class Testcase:
         print("test git back")
 
         print("测试分支")
+<<<<<<< HEAD
         print("测试分支冲突master")
+=======
+
+>>>>>>> feature1
 
 
 
